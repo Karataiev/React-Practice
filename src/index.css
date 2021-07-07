@@ -15,7 +15,8 @@ code {
 .wrapper {
   padding-top: 5rem;
   margin: 0 auto;
-  width: 600px;
+  width: 500px;
+  min-height: 900px;
 }
 
 .rm {
@@ -28,4 +29,21 @@ code {
 
 .done {
   text-decoration: line-through;
+}
+
+#root {
+  background-size: 700px 900px ;
+  background-image: url(./background_notebook.jpg);
+  background-repeat: no-repeat;
+  background-position: center top -50px;
+}
+
+.button_add {
+  background-color: rgb(88, 88, 129);
+  border-radius: 4px;
+  margin-left: 20px;
+}
+
+.input_add {
+  border-radius: 4px;
 }
